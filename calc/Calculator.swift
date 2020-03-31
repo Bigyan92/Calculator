@@ -1,14 +1,14 @@
 //
 //  Calculator.swift
-//  calc
+//  Calc
 //
-//  Created by Jacktator on 31/3/20.
+//  Created by SongXujie on 31/3/20.
 //  Copyright © 2020 UTS. All rights reserved.
 //
 
 import Foundation
 
-class Calculator {
+public class Calculator {
     
     /// For multi-step calculation, it's helpful to persist existing result
     var currentResult = 0;
@@ -34,4 +34,5 @@ class Calculator {
         let result = String(dummyResult);
         return(result)
     }
+    
 }
